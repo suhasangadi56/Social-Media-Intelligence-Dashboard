@@ -1,0 +1,18 @@
+# Core dashboard
+streamlit>=1.35
+pandas>=2.0
+numpy>=1.24
+plotly>=5.20
+
+# Sentiment (optional upgrade over the built-in lexicon fallback)
+vaderSentiment>=3.3.2
+
+# --- Optional, heavier NLP backends (uncomment to enable) ---
+# transformers>=4.40
+# torch>=2.2
+
+# --- Optional scraping/API libraries for live mode (uncomment as needed) ---
+# playwright>=1.44
+# snscrape @ git+https://github.com/JustAnotherArchivist/snscrape.git
+# instaloader>=4.11
+# google-api-python-client>=2.120   # YouTube Data API v3
